@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-int main(){
-  for(int i = 0; i < 4; i++){
-    printf("* * * * * * * *\n");
-    printf(" * * * * * * * *\n");
-  }
-
-  return 0;
+int main(void){
+    printf("* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n* * * * * * * *\n * * * * * * * *\n");
 }
